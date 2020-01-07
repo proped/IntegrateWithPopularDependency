@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class Exchange: ImmutableMappable {
+class Exchange: ImmutableMappable, Identifiable {
     
     let symbol: String
     let name: String
@@ -25,4 +25,18 @@ class Exchange: ImmutableMappable {
         fatalError("init(from:) has not been implemented")
     }
     
+    init(symbol: String,
+         name: String,
+         id: Int) {
+        self.symbol = symbol
+        self.name = name
+        self.id = id
+    }
+ 
+    static func == (lhs: Exchange,
+                    rhs: Exchange) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
 }
+

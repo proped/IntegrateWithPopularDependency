@@ -66,8 +66,8 @@
 			children = (
 				327769DC23C35F2A002A9166 /* AppDelegate.swift */,
 				327769DE23C35F2A002A9166 /* SceneDelegate.swift */,
-				327D2F5423C4284400DA7DED /* Models */,
-				327769FA23C36595002A9166 /* Services */,
+				327D2F5423C4284400DA7DED /* Model */,
+				327769FA23C36595002A9166 /* Service */,
 				327769E023C35F2A002A9166 /* ContentView.swift */,
 				327769E223C35F2A002A9166 /* Assets.xcassets */,
 				327769E723C35F2A002A9166 /* LaunchScreen.storyboard */,
@@ -85,20 +85,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		327769FA23C36595002A9166 /* Services */ = {
+		327769FA23C36595002A9166 /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				327769FB23C365A9002A9166 /* ExchangeService.swift */,
 			);
-			path = Services;
+			path = Service;
 			sourceTree = "<group>";
 		};
-		327D2F5423C4284400DA7DED /* Models */ = {
+		327D2F5423C4284400DA7DED /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				327769F623C36143002A9166 /* Exchange.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
