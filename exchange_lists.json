@@ -1,0 +1,17 @@
+[
+	{
+      "symbol": "SET",      
+       "name": "The Stock Exchange of Thailand",
+       "id": 1                      
+    },
+    {     
+		"symbol": "HKEX",
+		"name": "Hong Kong Exchange",
+		"id": 2
+    },
+    {     
+		"symbol": "NIKKEI225",
+		"name": "Japan NIKKEI 225 Stock Market",
+		"id": 3
+    }
+]
